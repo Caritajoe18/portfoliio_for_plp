@@ -1,0 +1,68 @@
+#head{
+height: 3rem;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif; 
+    font-size: x-large;
+    font-weight: 600;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(1, 136, 1);
+    opacity:0.9;
+
+}
+#intro{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+  
+}
+#intro p {
+    font-size: 16px; 
+    line-height: 1.3;
+
+}
+#skills {
+    background-color: #f2f2f2;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 5px;
+}
+
+#skills li::before {
+    content: "\2022"; /* Unicode character for bullet point */
+    color: #666; /* Medium gray color for bullet point */
+    margin-right: 5px; /* Add some space between bullet point and text */
+}
+#foot {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: rgb(1, 136, 1);
+    /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
